@@ -18,7 +18,7 @@ node(){
 		
 		stage('SonarQube Analysis'){
 			/*withCredentials([string(credentialsId: 'SonarQubeToken', variable: 'SONARQUBE_TOKEN')]) {
-				//sh "${sonarScannerHome}/bin/sonar-scanner -Dsonar.host.url=http://35.172.192.145:9000/ -Dsonar.login=${SONARQUBE_TOKEN} -Dsonar.projectKey=com.example:java-example-project"
+				//sh "${sonarScannerHome}/bin/sonar-scanner -Dsonar.host.url=http://http://3.83.240.238:9000/ -Dsonar.login=${SONARQUBE_TOKEN} -Dsonar.projectKey=com.example:java-example-project"
 			}*/
 		}
 		
